@@ -1,0 +1,24 @@
+{
+  "name": "mousemove",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --exec electron . --watch ./ --ext js,html",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "ZY",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^18.2.4",
+    "electron-builder": "^23.0.3",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "@nut-tree/nut-js": "^2.1.0",
+    "toad-scheduler": "^1.6.0"
+  }
+}
